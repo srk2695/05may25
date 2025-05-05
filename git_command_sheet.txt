@@ -1,0 +1,34 @@
+git init => initializes the repository
+git config user.name "srk" => configures the user name for that particular repository
+git config user.email "srk@gmail.com"  => configures the user email for that particular repository.
+git status => Gives status about the git repository
+git add . => add all the files in the staging area/ intermediate area
+git commit -m "commit message" => creates a version of file
+git checkout <version number> => It goes back to the desired version
+git checkout master  => brings back to the latest commit/version
+git remote add origin "URL"  => This tells me about the URL location where it has to push the file.
+git push origin master => Pushing the master branch.
+
+git log => to check all version id with author, datetime & msgs
+git log --pretty=oneline => to see log only version id with commit msg
+
+git branch <branch name> => create a branch 
+git switch -C <branch name> => create a branch & same time switch to new branch
+
+git branch => will show you at which branch you are present currently.
+
+git checkout <branch name> => will switch to specific branch
+git switch <branch name>  =>will switch to any specific branch
+
+git checkout master  => brings back to the latest commit/version of the master branch
+
+git checkout -- . => to undo the changes if you have not added in staging area
+git checkout --demo.txt => to undo the changes of any one file if you have not added in staging area
+
+git reset HEAD => TO remove files from staging area & send back to untracked area
+
+git branch -D rahul  => to delete specific branch
+
+git diff id1 id2 => to see changes of code in 2 coomit id
+
+git merge ram => to merge ram branch with other branch condition ram branch should be lead
