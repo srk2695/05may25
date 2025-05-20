@@ -3,6 +3,7 @@ git config user.name "srk" => configures the user name for that particular repos
 git config user.email "srk@gmail.com"  => configures the user email for that particular repository.
 git status => Gives status about the git repository
 git add . => add all the files in the staging area/ intermediate area
+
 git commit -m "commit message" => creates a version of file
 git checkout <version number> => It goes back to the desired version
 git checkout master  => brings back to the latest commit/version
@@ -11,6 +12,19 @@ git push origin master => Pushing the master branch.
 
 git log => to check all version id with author, datetime & msgs
 git log --pretty=oneline => to see log only version id with commit msg
+
+git pull origin master --rebase
+This will:
+
+Fetch the remote commits.
+
+Reapply your local commits on top of the latest remote commits (i.e., rebase).
+
+Reduce the chance of a messy merge commit.
+
+alternative way to pull file  is (works for new file too)
+git clone "https://github.com/srk2695/05may25"=> fetches all the file from repository without initializing and configuring user and mail
+
 
 git branch <branch name> => create a branch 
 git switch -C <branch name> => create a branch & same time switch to new branch

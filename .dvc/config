@@ -1,0 +1,8 @@
+[core]
+    remote = myaws
+['remote "storage"']
+    url = gdrive://1fJu7d5_shfBDBILGyslFBnchYRFSel2v
+['remote "store"']
+    url = gdrive://1fJu7d5_shfBDBILGyslFBnchYRFSel2V
+['remote "myaws"']
+    url = s3://demo19may/dvcstore
